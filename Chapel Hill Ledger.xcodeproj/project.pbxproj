@@ -11,6 +11,7 @@
 		AD44D46B2576BE3F00B5975D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD44D46A2576BE3F00B5975D /* ContentView.swift */; };
 		AD44D46D2576BE4100B5975D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD44D46C2576BE4100B5975D /* Assets.xcassets */; };
 		AD44D4702576BE4100B5975D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD44D46F2576BE4100B5975D /* Preview Assets.xcassets */; };
+		ADC56D532576C40600CA7B4F /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC56D522576C40600CA7B4F /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AD44D46C2576BE4100B5975D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD44D46F2576BE4100B5975D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD44D4712576BE4100B5975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC56D522576C40600CA7B4F /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				AD44D4682576BE3F00B5975D /* Chapel_Hill_LedgerApp.swift */,
+				ADC56D522576C40600CA7B4F /* ColorManager.swift */,
 				AD44D46A2576BE3F00B5975D /* ContentView.swift */,
 				AD44D46C2576BE4100B5975D /* Assets.xcassets */,
 				AD44D4712576BE4100B5975D /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC56D532576C40600CA7B4F /* ColorManager.swift in Sources */,
 				AD44D46B2576BE3F00B5975D /* ContentView.swift in Sources */,
 				AD44D4692576BE3F00B5975D /* Chapel_Hill_LedgerApp.swift in Sources */,
 			);
